@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-ca"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="description" content="Size and Structure">
+    <meta name="keywords" content="size, elements"> 
+    <meta name="author" content="Rodas Nega"> 
+    <meta name="viewport" content="width=device-width">
+    <style> 
+
+    * {
+      box-sizing: border-box;
+    }
+    div { 
+      float: center;
+      background-color: aliceblue; 
+      border: 5px solid black;
+      padding: 2px;
+    }
+    .img { 
+      float: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+     .image-container {
+      float: left;
+      width: 33.33%;
+      padding: 2px;
+    }
+     .footer {
+       bottom: 0;
+       left: 0;
+       width: 100%; 
+       text-align: center;
+       background-color: crimson;
+       color: white;
+    }
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style> 
+    <title>CSS Layout</title> 
+  </head> 
+  <body style="background-color:darkcyan;"> 
+
+    <div class="clearfix"> 
+      <h1 style="text-align:center;">Hello, World!</h1> 
+      <img class="img" src="./images2/wavinghand.gif" alt="Hand" width="220" height="200">
+    </div>
+
+    <h2 style="text-align:center;">My Interests<h2>   
+
+    <div class="clearfix"> 
+      <div class="image-container"> 
+        <img src="./images2/SciMat.jpeg" alt=STEM style="width:100%">
+        <p>Science and Mathematics.</p>
+      </div> 
+      <div class="image-container"> 
+        <img src="./images2/Tech.webp" alt=Tech style="width:100%">
+        <p>Technology</p>
+      </div> 
+      <div class="image-container"> 
+        <img src="./images2/Books.jpg" alt=Books style="width:100%">
+        <p>Reading books from time to time.</p>
+     </div> 
+     
+     <div class="footer">
+       <p>Thanks for Reading</p>
+     </div>
+
+  </body
+</html>       
+
+
+     
+
+
+      
+
+
+    
+  
+      
+
+
+       

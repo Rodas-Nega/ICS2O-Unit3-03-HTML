@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-ca"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="description" content="Size and Structure">
+    <meta name="keywords" content="size, elements"> 
+    <meta name="author" content="Rodas Nega"> 
+    <meta name="viewport" content="width=device-width">
+    <style> 
+    .sticky { 
+      position: sticky;
+      top: 0;
+      text-align: center;
+      background-color: aliceblue;
+      border: 4px solid black;
+    } 
+    * {
+      box-sizing: border-box;
+    }
+    .big {
+      float: left; 
+      width: 50%;
+      height: 300px;
+      background-color: blanchedalmond;
+      border: 2px solid black;
+      padding: 10px; 
+    }
+    .small {
+      float: right; 
+      width: 50%;
+      height: 150px;
+      background-color: blanchedalmond;
+      border: 2px solid black;
+      padding: 10px; 
+    } 
+    img { 
+      position: absolute; 
+      top: 0px; 
+      down: 2000px;
+      left: 300px;
+      z-index: -1; 
+    }
+    </style> 
+    <title>CSS Layout</title> 
+  </head> 
+  <body style="background-color:crimson;"> 
+  
+    <h1 class="sticky">Hello, World!</h1> 
+    <h3 style="background-color:yellow;">The following texts are for the sticky function to work.</h3>
+    <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus. </p>
+    <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p class="big" style="font-family:calibri;">I'm Left</p> 
+    <p class="small" "font-family:calibri;">I'm Right</p> 
+    <img src="./images/Repl.it.png" style="background-color:crimson;" alt="Repl.it" class="img">
+
+  </body>  
+</html>
+
+       
